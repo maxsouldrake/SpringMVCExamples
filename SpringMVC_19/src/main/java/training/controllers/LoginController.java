@@ -100,5 +100,4 @@ public class LoginController {
 		logger.info(user.getName());
 		return new ResponseEntity<String>(HttpStatus.OK);
 	}
-
 }
